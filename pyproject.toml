@@ -1,3 +1,15 @@
+[project]
+name = "bpython"
+version = "0.24.0"
+description = "A fancy interface to the Python interpreter."
+authors = [
+  { name = "Bob Farrell", email = "bob@bpython-interpreter.org" }
+]
+license = "OSL-3.0"
+readme = "README.rst"
+requires-python = ">=3.7"
+dependencies = []
+
 [build-system]
 requires = ["setuptools >= 62.4.0"]
 build-backend = "setuptools.build_meta"
